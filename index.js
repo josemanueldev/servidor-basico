@@ -6,7 +6,7 @@ import mongoose from 'mongoose';
 
 const PORT = 5000;
 
-mongoose.connect('mongodb://localhost');
+mongoose.connect('mongodb://localhost/info');
 
 const server = express();
 server.use(bodyParser.json());
